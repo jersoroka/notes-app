@@ -7,7 +7,7 @@
 </ul>
 
 <h2>GIF</h2>
-![](./notes-app-demo.gif)
+![](notes-app-demo.gif)
 
 <h2>Technologies</h2>
 Project is created with:
