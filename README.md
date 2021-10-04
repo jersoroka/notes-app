@@ -7,7 +7,7 @@
 </ul>
 
 <h2>GIF</h2>
-![](notes-app-demo.gif)
+<img src="./notes-app-demo.gif" width=800px/>
 
 <h2>Technologies</h2>
 Project is created with:
