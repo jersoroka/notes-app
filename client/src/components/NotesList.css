@@ -1,0 +1,41 @@
+.list {
+    width: 100%;
+    padding: 0 0;
+    max-height: 75vh;
+    overflow: auto;
+    padding-right: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: white;
+}
+  
+.list::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f8e5e5;
+}
+  
+.list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #c39ea0;
+}
+
+.notes-list-prompt {
+  font-size: 16px;
+  align-self: center;
+}
+
+.notes-list-title {
+    color: #fa255e;
+    font-size: 20px;
+}
+
+.show-add-note-list-view {
+    max-height: 50vh;
+}
+
+  
+

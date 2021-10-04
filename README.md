@@ -6,3 +6,23 @@
   <li>The user is able to add, update, and delete notes.</li>
 </ul>
 
+<h2>GIF</h2>
+![](./notes-app-demo.gif)
+
+<h2>Technologies</h2>
+Project is created with:
+<ul>
+  <li>React</li>
+  <li>Node.js/Express.js</li>
+  <li>MongoDB</li>
+</ul>
+
+<h2>Usage</h2>
+To start:
+
+First, add MongoDB credentials to config.env then
+
+```
+$ npm run dev
+```
+

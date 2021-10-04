@@ -1,0 +1,120 @@
+.cancel-note-btn {
+    grid-row: 3 / 4;
+    height: 25px;
+    width: 25px;
+    align-self: start;
+    margin-right: -5px;
+}
+
+.collapsed-content {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.collapsed-list-item {
+    grid-template-rows: 25px 25px 25px;
+}
+
+.collapse-note-btn {
+    grid-row: 3 / 4;
+    align-self: start;
+}
+
+.content {
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+    opacity: 0.7;
+}
+
+.date {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.delete-note-btn {
+    grid-row: 2 / 3;
+}
+
+.edit-content {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    overflow: visible;
+    height: 100%;
+    margin-left: -2px;
+    padding-top: 7px;
+    border-top: 1px dotted black;
+}
+
+.edit-list-item {
+    grid-template-rows: 25px auto 100px;
+}
+
+.edit-note-btn {
+    grid-row: 1 / 2;
+}
+
+.edit-title {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 3px;
+    margin-left: -2px;
+    border-top: 1px dotted black;
+}
+
+.expanded-content {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.expanded-list-item {
+    grid-template-rows: 25px 25px auto;
+}
+
+.expand-note-btn {
+    grid-row: 3 / 4;
+}
+
+.list-item {
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+    row-gap: 5px;
+    align-items: center;
+    border: 1px solid black;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: white;
+}
+
+.note-btn {
+    grid-column: 3 / 4;
+    justify-self: end;
+    color: #fa255e;
+}
+
+.note-btn:hover {
+    transform: scaleX(1.3) scaleY(1.3);
+}
+
+.save-note-btn {
+    grid-row: 1 / 2;
+}
+
+.title {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

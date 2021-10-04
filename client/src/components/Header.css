@@ -1,0 +1,17 @@
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.items {
+    font-weight: bold;
+}
+
+.show-add-cancel-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
