@@ -7,7 +7,7 @@
 </ul>
 
 <h2>GIF</h2>
-<img src="./notes-app-demo.gif" width=800px/>
+<img src="./notes-app-demo.gif" width=400px/>
 
 <h2>Technologies</h2>
 Project is created with:
